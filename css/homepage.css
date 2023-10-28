@@ -1,0 +1,141 @@
+.yash{
+    width: 100%;
+}
+.menulist{
+    list-style-type:none;    
+}
+.menulist li {
+    color: white;
+    padding: 10px;
+}
+.menulist li:hover {
+    color: white;    
+    background-color: #fab44f;
+    border-radius: 20px;
+}
+.slide1{
+    height: calc(100vh - 102px);
+    position: relative;
+}
+.layer{
+    height: calc(100vh - 102px);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    opacity: 0.1;
+}
+.layer2{
+    position: absolute;
+    top: 200px;
+    margin-left: 0px;    
+}
+.letslearn{
+    color: fab44f;
+    padding-left: 50px;
+    font-size: 50px;
+    font-family: ui-serif;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.layer3{
+    position: absolute;
+    top: 150px;
+}
+.aboutbutton{
+    padding: 10px !important;
+    background-color: skyblue;
+    border-radius: 10px;
+    color: white;
+    animation-name: example;
+    animation-duration: 3s;    
+}
+.img{
+    padding: 120px;
+}
+.slied2{
+    
+    
+    background-color: rgb(31 31 31);
+}
+.webcontent{
+    font-family: ui-serif;
+    font-size: 50px;
+    color: fab44f;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.content{
+    display: block;
+    width: 60%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.content p {
+    line-height: 1.8;
+    text-align: justify;
+}
+.webdevlopment{
+    text-align: center;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.title{
+    margin-top: 30px;
+}
+.reveal{
+    opacity: 0;
+    position: relative;
+    transform: translateY(150px);
+    transition: all 2s ease;
+}
+.onlineteaching{
+    background-color: #6abfd87a;
+    margin: 50px;
+    width: 180px;
+    height: 180px; 
+    border-radius: 50%;
+}
+.onlineteaching-icon{
+    top: 30px;
+    left: 30px;   
+    position: absolute;
+}
+.learnfast{
+    background-image: url(../images/lear_fast.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.onlinedic{
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+.reveal.active{
+transform: translateY(0px);
+opacity: 1;
+}
+
+
+
+
+
+@keyframes example {
+    0%   {opacity: 0;}    
+    100% {opacity: 1;}
+  }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
